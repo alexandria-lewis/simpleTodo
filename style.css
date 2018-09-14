@@ -1,14 +1,19 @@
+
 body{
+  /* These are basic styles I tend to put on all html pages 
+  I create so there is no weird border */
   box-sizing: border-box;
   margin:0;
   padding:0;
+  /* This font is linked from google in the html header */
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   background-color: #2C2A4A;
   color: #4F518C;
 }
 
-h1, h2, h3{
+h1, h2, h3{ /* this is how you reference several elements that receive the same style */
+  /* This font is linked from google in the html header */
   font-family: 'Carter One', cursive;
   color: #7FDEFF;
 }
@@ -19,10 +24,12 @@ form, #taskCont {
     padding: 10px;
 }
 
-form{
+form{ /* elements can be reverenced several times, but it's best to limit references or you
+may get confused and the last reference of the same heirarchy will stomp out previous settings. */
   background-color: #4F518C;
   color: #907AD6;
-  text-align: center;
+  text-align: center; /* this is affecting the elements inside the form,
+  not necessarily the text */
   border-radius: 5px;
 }
 
@@ -36,7 +43,8 @@ form{
 }
 
 #errorMsg{
-  display: none;
+  display: none; /* starting off the session with the error hidden,
+  to be shown in specific circumstances with js */
   color: #FF0000;
   font-weight: 800;
 }

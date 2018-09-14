@@ -16,6 +16,11 @@ Use the file so that if the internet is unavailable your application can still r
 
 ### Reference your files in the html header
 
+I used fonts from google to include in my project. Reference links to fonts the same as you would a file.
+```
+<link href="https://fonts.googleapis.com/css?family=Carter+One|Lato" rel="stylesheet">
+```
+
 ```
 <link rel="stylesheet" href="style.css">
 ```
