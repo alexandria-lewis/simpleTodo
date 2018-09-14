@@ -41,5 +41,3 @@ $(function(){
     });
   });
 });
-
-//$( "#x" ).prop( "checked", true );
