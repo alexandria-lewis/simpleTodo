@@ -1,6 +1,12 @@
 //global for selecting correct elements by index
 var taskArray = [];
 
+/*
+This is the Document Ready function.
+Another way to write it, still using jQuery:
+$(document).ready(function(){ code here });
+Everything inside this function waits for the page to load(images and iframes included) before running the javascript within it.
+*/
 $(function(){
   $("#taskInput").focus(function(){//when input is clicked/in focus
     //check if error message container is visible
