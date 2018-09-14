@@ -1,6 +1,8 @@
 ## Simple To Do Application
 An application to be run in a browser. These are basic set up instructions.
 
+[Preview on codepen.io](https://codepen.io/lexria/pen/xazeGx)
+
 ### Create basic files
 1. index.html
 2. main.js
@@ -8,7 +10,6 @@ An application to be run in a browser. These are basic set up instructions.
 
 ### Download jQuery file
 Use the file so that if the internet is unavailable your application can still run jQuery.
-[Preview on codepen.io](https://codepen.io/lexria/pen/xazeGx)
 
 1. Download the file from the [jQuery website](https://jquery.com/download/)
 2. Place in your repository.
@@ -24,6 +25,15 @@ Use the file so that if the internet is unavailable your application can still r
 ```
 <script src="main.js"></script>
 ```
+
+### Test in browser as you work
+Double click the index.html to view your work in the browser. When you save changes, refresh the browser to update your session and see the changes.
+
+### Things to keep in mind
+* Don't delete your work. Having a history of things you've tried can only benefit you.
+* Be careful with copy pasting. Pay extra attention when reworking code taken from somewhere else.
+* Google your way to the top. Most likely, your questions have been asked and answered before.
+* Ask for help. A second pair of eyes and a fresh perspective can help tackle bugs you get stuck on.
 
 ## Todo Project Built With
 
